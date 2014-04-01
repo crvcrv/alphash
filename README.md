@@ -30,4 +30,4 @@ Quickstart
 
     $ alphash --all --seed myseed -si
     >>> Secure Input:
-    >>> w)`di}J=CocCaO*T%Yg7
+    >>> vfO#ZeN(0h3<k<oG{8
