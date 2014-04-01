@@ -16,6 +16,12 @@ Quickstart
     $ alphash --input helloworld --alphanumeric 
     >>> RLg2fY7fuDkOnDJMjuKw
 
+**Hash input to uppercase + digits**
+
+    $ alphash --input helloworld --digits --uppercase
+    >>> HS9Z77O8TEIBBSGVRWIH
+
+
 **Hash input to alphanumeric + special chars  ( !"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ )**
 
     $ alphash --input helloworld --all
