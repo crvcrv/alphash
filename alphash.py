@@ -151,7 +151,10 @@ def main():
     for i in indices:
         old_seed = seed
         seed = seed << i
-        seed = seed ^ old_seed
+        seed = seed ^ int(hashlib.sha1(str(old_seed**i).encode()).hexdigest(), 16)#old_seed
+
+        seed = int(hashlib.sha256(str(seed).encode()).hexdigest(), 16)
+        #print(seed)
 
         random.seed(seed)
         random.shuffle(chars)
