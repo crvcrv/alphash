@@ -37,3 +37,8 @@ Quickstart
     $ alphash --all --seed myseed -si
     >>> Secure Input:
     >>> D!(={7IyCjn,`(>)\SIX
+
+Installation
+=====================================
+On UNIX systems move alphash.py to /usr/bin/alphash  
+Make sure you've permission to execute.
