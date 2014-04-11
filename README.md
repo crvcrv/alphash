@@ -8,32 +8,32 @@ Quickstart
 
 **Hash input string to default chars (lower case)**
 
-    $ alphash --input helloworld
-    >>> phoognfttaykjiokfgvr
+    $ alphash --input foobar
+    >>> liyyffytybcuhargzwsk
     
 **Hash input to alphanumeric chars**
 
-    $ alphash --input helloworld --alphanumeric 
-    >>> RLg2fY7fuDkOnDJMjuKw
+    $ alphash --input foobar --alphanumeric 
+    >>> xYvc8QRey2EaMEVwVAOe
 
 **Hash input to uppercase + digits**
 
-    $ alphash --input helloworld --digits --uppercase
-    >>> HS9Z77O8TEIBBSGVRWIH
+    $ alphash --input foobar --digits --uppercase
+    >>> L4SNNMTF3D41R9EKWWC6
 
 
 **Hash input to alphanumeric + special chars  ( !"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ )**
 
-    $ alphash --input helloworld --all
-    >>> $LWM$"?%D<OuzT|a+y^X
+    $ alphash --input foobar --all
+    >>> q_n\pF"@h(_h5Uhl<ET"
     
 **Hash input using a seed ( either int or string )**
 
-    $ alphash --input helloworld --all --seed myseed
-    >>> vfO#ZeN(0h3<k<oG{8
+    $ alphash --input foobar --all --seed myseed
+    >>> D!(={7IyCjn,`(>)\SIX
     
 **Hash using secure input**
 
     $ alphash --all --seed myseed -si
     >>> Secure Input:
-    >>> vfO#ZeN(0h3<k<oG{8
+    >>> D!(={7IyCjn,`(>)\SIX
